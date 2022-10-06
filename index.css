@@ -1,0 +1,44 @@
+.header{
+    text-align: center;
+    font-size: 3rem;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    gap: 3px;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+}
+.cell{
+    display: grid;
+    font-size: 3rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.winner{
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    background-color: rgba(0,0,0,.8);
+}
+.winnerName{
+    color: red;
+}
+button{
+    height: 20px;
+    width: 100px;
+}
